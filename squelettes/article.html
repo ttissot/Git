@@ -1,0 +1,76 @@
+#CACHE{86400}
+<BOUCLE_article_principal(ARTICLES) {id_article}>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="#LANG_DIR" lang="#LANG">
+<head>
+<title>[(#TITRE|textebrut) - ][(#NOM_SITE_SPIP|textebrut)]</title>
+[<meta name="description" content="(#INTRODUCTION|couper{150}|textebrut)" />]
+<INCLURE{fond=inc-head}>
+<script language="javascript" src="[(#CHEMIN{javascript/jquery-1.2.3.js})]" type="text/javascript"></script>
+<script language="javascript" src="[(#CHEMIN{javascript/jquery.idTabs.pack.js})]" type="text/javascript"></script>
+</head>
+
+<body>
+
+	<div id="container">
+		[(#REM) Présentation de Raynard ]
+		<INCLURE{fond=branding}>
+		<div id="content">
+
+			<INCLURE{fond=inc-entete}{id_rubrique}>
+			
+			<div id="content_main">
+				<div class="entete#ID_RUBRIQUE">
+					[<div class="logorub"><a href="#URL_RUBRIQUE">(#LOGO_RUBRIQUE||image_reduire{150,109})</a></div>]
+					<div class="text">
+						[<h2>(#TITRE|supprimer_numero|majuscules)</h2>]
+						[(#DESCRIPTIF|paragrapher)]
+					</div>
+					[(#REM) Sous-menu ]
+					<INCLURE{fond=sousmenu}{id_rubrique}{id_article=16}>
+					<div class="clear"></div>
+				</div>
+				<div id="illustr">
+					<BOUCLE_illustr(DOCUMENTS){id_article}{mode=document}{extension==jpg|gif|png}{par num titre}>
+					<div id="numero#ID_DOCUMENT">
+						[<a href="#URL_DOCUMENT">(#FICHIER|image_reduire{241,326})</a>]
+					</div>
+					</BOUCLE_illustr>
+					<ul class="idTabs">
+						<BOUCLE_vignettes(DOCUMENTS){id_article}{mode=document}{extension==jpg|gif|png}{par num titre}>
+						<li><a href="#numero#ID_DOCUMENT">#LOGO_DOCUMENT</a></li>
+						</BOUCLE_vignettes>
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div id="principal">
+					<BOUCLE_art_de_garde(ARTICLES){id_article}>
+					[<h1 class="plv">(#TITRE)</h1>]
+					[<h2 class="soustitre">(#SOUSTITRE)</h2>]
+					[<div class="chapo">(#CHAPO|paragrapher)</div>]
+					[<div class="text">(#TEXTE|paragrapher)</div>]
+					<B_plan>
+					<div class="plan">
+						<BOUCLE_plan(DOCUMENTS){id_article}{mode=image}{extension==jpg|gif|png}{titre=plan}>
+						[<a href="#URL_DOCUMENT">(#FICHIER|image_reduire{246})</a>]
+						<p>#DESCRIPTIF</p>
+						</BOUCLE_plan>
+						<div class="contact_prdt">
+							<p>VOUS SOUHAITEZ AVOIR DES INFORMATIONS SUR CE PRODUIT ?<br /><a href="spip.php?rubrique6">CLIQUEZ ICI POUR NOUS CONTACTER</a></p>
+						</div>
+					</div>
+					</B_plan>
+					<div class="clear"></div>
+					</BOUCLE_art_de_garde>
+				</div>
+				<div class="clear"></div>
+			</div>
+			[(#REM) Pied-de-page ]
+			<INCLURE{fond=inc-pied}>
+		</div>
+		<div class="clear"></div>
+	</div>
+<INCLURE{fond=inc-ga}>
+</body>
+</html>
+</BOUCLE_article_principal>

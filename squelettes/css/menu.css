@@ -1,0 +1,39 @@
+﻿#nav_main { 
+	background:url(navpics/fonds/fd_menu.gif) 0 0 repeat-x;
+	height:39px;
+	left:0;
+	padding:0 0 0 30px;
+	position:absolute;
+	top:57px;
+	width:703px;
+}
+#nav_main li {
+	float: left;
+	height:39px;
+	line-height:39px;
+	text-align:center;
+}
+#menu0 { width:84px; } /* accueil */
+#menu1 { width:79px; } /* raynard */
+#menu2 { width:67px; } /* plv */
+#menu3 { width:96px; } /* packaging */
+#menu4 { width:72px; } /* print */
+#menu5 { width:108px; } /* sur mesure */
+#menu6 { width:85px; } /* contact */
+
+#menu0:hover, #menu0.hover, #menu0.on { background:url(navpics/menu/accueil.png) center 0;  }
+#menu1:hover, #menu1.hover, #menu1.on { background:url(navpics/menu/raynard.png) center 0; }
+#menu2:hover, #menu2.hover, #menu2.on { background:url(navpics/menu/plv.png) center 0; }
+#menu3:hover, #menu3.hover, #menu3.on { background:url(navpics/menu/packaging.png) center 0; }
+#menu4:hover, #menu4.hover, #menu4.on { background:url(navpics/menu/print.png) center 0; }
+#menu5:hover, #menu5.hover, #menu5.on { background:url(navpics/menu/sur_mesure.png) center 0; }
+#menu6:hover, #menu6.hover, #menu6.on { background:url(navpics/menu/contact.png) center 0; }
+
+#nav_main li a {
+	background:transparent;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#nav_main li a:hover, #nav_main li.on a { background:url(navpics/menu/fleche.gif) center 28px no-repeat; color:#fff; }

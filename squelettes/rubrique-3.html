@@ -1,0 +1,109 @@
+#CACHE{7200}
+<BOUCLE_rubrique_principal(RUBRIQUES) {id_rubrique}>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="#LANG_DIR" lang="#LANG">
+<head>
+<title>[(#TITRE|supprimer_numero|textebrut) - ][(#NOM_SITE_SPIP|textebrut)]</title>
+[<meta name="description" content="(#INTRODUCTION|couper{150}|textebrut)" />]
+<INCLURE{fond=inc-head}>
+[(#REM) Lien vers le flux RSS de la rubrique ]
+<link rel="alternate" type="application/rss+xml" title="<:syndiquer_rubrique:>" href="[(#URL_PAGE{backend}|parametre_url{id_rubrique,#ID_RUBRIQUE})]" />
+<script language="javascript" type="text/javascript" src="[(#CHEMIN{javascript/jquery-1.2.3.js})]"></script>
+<script language="javascript" type="text/javascript" src="[(#CHEMIN{javascript/jquery.idTabs.pack.js})]"></script>
+<script language="javascript" type="text/javascript" src="[(#CHEMIN{facebox/facebox.js})]"></script>
+<link rel="stylesheet" href="[(#CHEMIN{facebox/facebox.css})]" media="screen" />
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('a[rel*=facebox]').facebox() 
+})
+</script>
+</head>
+
+<body>
+
+	<div id="container">
+		[(#REM) Présentation de Raynard ]
+		<INCLURE{fond=branding}>
+		<div id="content">
+
+			<INCLURE{fond=inc-entete}{id_rubrique}>
+			
+			<div id="content_main">
+				<div class="entete3">
+					<BOUCLE_origine(RUBRIQUES){id_rubrique=3}>
+					[<div class="logorub"><a href="#URL_RUBRIQUE">(#LOGO_RUBRIQUE||image_reduire{150,109})</a></div>]
+					<div class="text">
+						[<h2>(#TITRE|supprimer_numero|majuscules)</h2>]
+						[(#DESCRIPTIF|paragrapher)]
+					</div>
+					</BOUCLE_origine>
+					[(#REM) Sous-menu ]
+					<INCLURE{fond=sousmenu}{id_secteur}{id_rubrique}>
+					<div class="clear"></div>
+				</div>
+
+				<div id="illustr">
+					<BOUCLE_first_art(ARTICLES){id_rubrique}{par num titre}{0,1}>
+					<BOUCLE_illustr(DOCUMENTS){id_article}{mode=document}{extension==jpg|gif|png}{par num titre}>
+					<div class="phto" id="numero#ID_DOCUMENT">
+						[<a href="#URL_DOCUMENT" rel="facebox">(#FICHIER|image_reduire{241,326})</a>]
+					</div>
+					</BOUCLE_illustr>
+
+					<BOUCLE_compte_vignettes(DOCUMENTS){id_article}{mode=document}{extension==jpg|png|gif}{par num titre}>
+					</BOUCLE_compte_vignettes>
+					[(#TOTAL_BOUCLE|>{1}|?{' ',''})
+					<INCLURE{fond=vignettes}{id_article=#ID_ARTICLE}>
+					]
+					[(#TOTAL_BOUCLE|>{1}|?{'',' '})]
+					</B_compte_vignettes>
+
+					</BOUCLE_first_art>
+					<div class="clear"></div>
+				</div>
+				<div id="principal">
+					<BOUCLE_art_de_garde(ARTICLES){id_rubrique}{par num titre}{0,1}>
+					[<h1>(#TITRE|supprimer_numero)</h1>]
+					[<h2 class="soustitre">(#SOUSTITRE)</h2>]
+					<div class="text">
+						[<div class="chapo">(#CHAPO|paragrapher)</div>]
+						[(#TEXTE|paragrapher)]
+					</div>
+					</BOUCLE_art_de_garde>
+					<div class="plan">
+						<BOUCLE_rub(RUBRIQUES){id_rubrique}>
+						[<h2>(#TITRE|majuscules)</h2>]
+						</BOUCLE_rub>
+						<B_others_arts>
+						<ul>
+						<BOUCLE_art(ARTICLES){id_rubrique}{par num titre}{0, 1}>
+							[<li class="on"><a href="#URL_ARTICLE">(#TITRE|supprimer_numero)</a></li>]
+						</BOUCLE_art>
+						<BOUCLE_others_arts(ARTICLES){id_rubrique}{par num titre}{1, n}>
+							[<li><a href="#URL_ARTICLE">(#TITRE|supprimer_numero)</a></li>]
+						</BOUCLE_others_arts>
+						</ul>
+						</B_others_arts>
+						<BOUCLE_art_plan(ARTICLES){id_rubrique}{par num titre}{0,1}>
+						<BOUCLE_plan(DOCUMENTS){id_article}{mode=image}{extension==jpg|gif|png}{titre=plan}>
+						[<a href="#URL_DOCUMENT" rel="facebox">(#FICHIER|image_reduire{246,246})</a>]
+						<p>#DESCRIPTIF</p>
+						</BOUCLE_plan>
+						</BOUCLE_art_plan>
+						<div class="contact_prdt">
+							<p>VOUS SOUHAITEZ AVOIR DES INFORMATIONS SUR CE PRODUIT ?<br /><a href="spip.php?rubrique6">CLIQUEZ ICI POUR NOUS CONTACTER</a></p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			[(#REM) Pied-de-page ]
+			<INCLURE{fond=inc-pied}>
+		</div>
+		<div class="clear"></div>
+	</div>
+<INCLURE{fond=inc-ga}>
+</body>
+</html>
+</BOUCLE_rubrique_principal>

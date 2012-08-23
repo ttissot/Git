@@ -1,0 +1,34 @@
+#CACHE{7200}
+<BOUCLE_rubrique_principal(RUBRIQUES) {id_rubrique}>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="#LANG_DIR" lang="#LANG">
+<head>
+<title>[(#TITRE|supprimer_numero|textebrut) - ][(#NOM_SITE_SPIP|textebrut)]</title>
+[<meta name="description" content="(#INTRODUCTION|couper{150}|textebrut)" />]
+<INCLURE{fond=inc-head}>
+[(#REM) Lien vers le flux RSS de la rubrique ]
+<link rel="alternate" type="application/rss+xml" title="<:syndiquer_rubrique:>" href="[(#URL_PAGE{backend}|parametre_url{id_rubrique,#ID_RUBRIQUE})]" />
+</head>
+
+<body>
+
+	<div id="container">
+		[(#REM) Présentation de Raynard ]
+		<INCLURE{fond=branding}>
+		<div id="content">
+
+			<INCLURE{fond=inc-entete}{id_rubrique}>
+			
+			<div id="content_main">
+			</div>
+			[(#REM) Pied-de-page ]
+			<INCLURE{fond=inc-pied}>
+		</div>
+		<div class="clear"></div>
+		<div id="nav_supp"></div>
+	</div>
+
+<INCLURE{fond=inc-ga}>
+</body>
+</html>
+</BOUCLE_rubrique_principal>

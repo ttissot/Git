@@ -1,0 +1,49 @@
+#CACHE{7200}
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="#LANG_DIR" lang="#LANG">
+<head>
+<title>[(#NOM_SITE_SPIP|textebrut)]</title>
+[<meta name="description" content="(#DESCRIPTIF_SITE_SPIP|couper{150}|textebrut)" />]
+<INCLURE{fond=inc-head}>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		[(#REM) Présentation de Raynard ]
+		<INCLURE{fond=branding}>
+		
+		<div id="content">
+
+			<INCLURE{fond=inc-entete}{id_rubrique=0}>
+			
+			<div id="content_main">
+				<div class="entrees">
+					<BOUCLE_menu(RUBRIQUES){id_rubrique IN 2,3,4}>
+					<div class="entree#ID_RUBRIQUE">
+						[<a href="#URL_RUBRIQUE">(#LOGO_RUBRIQUE||inserer_attribut{class,logorub})</a>]
+						[<h2><a href="#URL_RUBRIQUE">(#TITRE|supprimer_numero|majuscules)</a></h2>]
+						[(#DESCRIPTIF|paragrapher)]
+						<p>
+							<BOUCLE_sousmenu(RUBRIQUES){id_parent}{par titre}{0,n-1}>
+							<span class="sousrub"><a href="#URL_RUBRIQUE">#TITRE</a>&nbsp;|</span>
+							</BOUCLE_sousmenu>
+							<BOUCLE_sousmenu_last(RUBRIQUES){id_parent}{par titre}{n-1,1}>
+							<span class="sousrub"><a href="#URL_RUBRIQUE">#TITRE</a></span>
+							</BOUCLE_sousmenu_last>
+						</p>
+					</div>
+					</BOUCLE_menu>
+					<div class="clear"></div>
+				</div>
+			</div>
+			[(#REM) Pied-de-page ]
+			<INCLURE{fond=inc-pied}>
+		</div>
+		<div class="clear"></div>
+		<div id="nav_supp"></div>
+	</div>
+<INCLURE{fond=inc-ga}>
+</body>
+</html>

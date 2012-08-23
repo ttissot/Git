@@ -1,0 +1,51 @@
+		<div id="site_info">
+			<B_variations>
+			<div class="variations">
+				<BOUCLE_variations(RUBRIQUES){id_rubrique=7}>
+					<div class="text">
+						[<h2>(#TITRE|supprimer_numero|majuscules)</h2>]
+						[(#DESCRIPTIF|paragrapher)]
+						<ul>
+							<li><a href="/spip.php?rubrique5">Voir le portfolio</a></li>
+							<li><a href="/spip.php?rubrique6">Nous contacter</a></li>
+						</ul>
+					</div>
+					<BOUCLE_art_variations(ARTICLES){id_rubrique}{0,1}>
+					<B_img_variations>
+					<div class="illustr">
+						<BOUCLE_img_variations(DOCUMENTS){id_article}{mode=document}{extension=png}{par hasard}{0,1}>
+						[(#FICHIER|image_reduire{246,145}|inserer_attribut{class,visuel})]
+						<div class="text_illustr">
+							[<h3>(#TITRE)</h3>]
+							[<p>(#DESCRIPTIF)</p>]
+						</div>
+						<div class="clear"></div>
+						</BOUCLE_img_variations>
+					</div>
+					<B_img_variations>
+					</BOUCLE_art_variations>
+				</BOUCLE_variations>
+				<div class="clear"></div>
+			</div>
+			</B_variations>
+			<div class="coords">
+				<img src="[(#CHEMIN{css/navpics/visuels/donner_forme_imagination.gif})]" alt="" class="visuel" />
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+			
+		</div>
+		<div id="site_footer">
+		<div class="coords">
+				<img src="[(#CHEMIN{css/navpics/logos/afaq_imprimvert.png})]" alt="" class="flotright" />
+				<p>RAYNARD SAS - 6, rue de la Peltière - 35130 La Guerche de Bretagne - Tel : 02 99 96 31 01 - <a href="mailto:raynard@raynard.fr">raynard@raynard.fr</a></p>
+
+				<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+		</div>
+
+[(#REM)
+	Cette balise permet de deporter les calculs lourds (indexation etc)
+	dans une image cachee, ce qui evite de ralentir l'affichage des pages.
+]#SPIP_CRON

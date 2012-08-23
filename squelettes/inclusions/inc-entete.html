@@ -1,0 +1,11 @@
+			
+			<div id="header">
+				<img src="[(#CHEMIN{css/navpics/titres/baseline.png})]" alt="Précision et savoir-faire" class="baseline" />
+				<ul id="nav_main">
+					<li id="menu0"[(#ID_RUBRIQUE|=={0}|?{' class="on"',''})]><a href="#URL_SITE_SPIP">ACCUEIL</a></li>
+					<BOUCLE_nav(RUBRIQUES){racine}{id_rubrique!=7}{par num titre}>
+					<li id="menu#RANG"[ class="(#EXPOSE)"]><a href="#URL_RUBRIQUE">[(#TITRE|supprimer_numero|majuscules)]</a></li>
+					</BOUCLE_nav>
+				</ul>
+				<img src="[(#CHEMIN{css/navpics/visuels/carres.gif})]" alt="" class="carres" />
+			</div>

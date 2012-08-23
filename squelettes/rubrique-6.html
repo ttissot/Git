@@ -1,0 +1,41 @@
+#CACHE{7200}
+<BOUCLE_rubrique_principal(RUBRIQUES) {id_rubrique}>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="#LANG_DIR" lang="#LANG">
+<head>
+<title>[(#TITRE|supprimer_numero|textebrut) - ][(#NOM_SITE_SPIP|textebrut)]</title>
+[<meta name="description" content="(#INTRODUCTION|couper{150}|textebrut)" />]
+<INCLURE{fond=inc-head}>
+[(#REM) Lien vers le flux RSS de la rubrique ]
+<link rel="alternate" type="application/rss+xml" title="<:syndiquer_rubrique:>" href="[(#URL_PAGE{backend}|parametre_url{id_rubrique,#ID_RUBRIQUE})]" />
+</head>
+
+<body>
+
+	<div id="container">
+		[(#REM) Présentation de Raynard ]
+		<INCLURE{fond=branding}>
+		<div id="content">
+
+			<INCLURE{fond=inc-entete}{id_rubrique}>
+			
+			<div id="content_main">
+				<div class="article">
+					<BOUCLE_art_de_garde(ARTICLES){id_rubrique}{0,1}>
+					[<h1>(#TITRE)</h1>]
+					[<h2 class="soustitre">(#SOUSTITRE)</h2>]
+					[<div class="chapo">(#CHAPO|paragrapher)</div>]
+					[<div class="text">(#TEXTE|paragrapher)</div>]
+					<div class="clear"></div>
+					</BOUCLE_art_de_garde>
+				</div>
+			</div>
+			[(#REM) Pied-de-page ]
+			<INCLURE{fond=inc-pied}>
+		</div>
+		<div class="clear"></div>
+	</div>
+<INCLURE{fond=inc-ga}>
+</body>
+</html>
+</BOUCLE_rubrique_principal>

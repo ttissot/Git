@@ -1,0 +1,233 @@
+/*****************************/
+/*           HTML            */
+/*****************************/
+body, html { width:100%; }
+body { margin:0; padding:0; font:12px/18px "Trebuchet MS", Myriad, Helvetica, sans-serif; background:#fff url(navpics/fonds/fd_body.gif) 0 0 repeat-x; color:#000; text-align:center; }
+img { border:0; }
+a { text-decoration:none; color:#000; }
+a:hover { text-decoration:underline; }
+form, input, textarea, select { margin:0; }
+
+ul { list-style:none; margin:0; padding:0; }
+ul li { margin:0; padding:0; }
+ul li a { display:block; margin:0; padding:0; }
+
+
+/*****************************/
+/*        STRUCTURE          */
+/*****************************/
+#container { background:#fff; margin:10px auto; text-align:left; width:980px; } /* conteneur de page */
+
+#header { background:url(navpics/fonds/fd_header.gif) 0 0 no-repeat; height:96px; position:relative; } /* entete */
+#header img.baseline { left:348px; position:absolute; top:24px; }
+#header img.carres { left:667px; overflow:visible; position:absolute; top:0; z-index:999; }
+
+#branding { color:#bfc2c5; float:left; padding:142px 20px 0 0; position:relative; width:227px; } /* signes distinctifs - bandeau(s) */
+#branding img.logo { left:27px; right:27; position:absolute; top:42px; } /* signes distinctifs - bandeau(s) */
+#branding h3.spip { color:#f26522; font:normal 18px/24px Georgia, "Times New Roman", Times, serif; margin:12px 0 0 15px; text-align:left; }
+#branding p.spip { line-height:17px; margin:0; padding-left:27px; }
+#branding img.visuel { margin:15px 0 0 0; } /* signes distinctifs - bandeau(s) */
+
+
+#content { float:left; width:733px; } /* contenu */
+
+#content_main { padding:34px 0 0 0; } /* contenu principal */
+
+#site_info {  /* ours du site - footer */ 
+	height:155px;
+	margin:30px 0 0 0;
+	width:733px;
+}
+#site_info div.variations { background:#ec008c; display:inline; float:left; height:145px; margin:10px 0 0 0; padding:0 0 0 10px; width:478px; }
+#site_info div.variations div.text { float:left; width:232px; }
+#site_info div.variations h2 { color:#fff; font-size:18px; font-weight:normal; margin:20px 0 0 6px; }
+#site_info div.variations p.spip { margin:5px 0 0 6px; }
+#site_info ul { margin:10px 0 0 0; width:163px; }
+#site_info ul li { background:#b3006a; border:1px solid #ff0097; height:20px; line-height:20px; margin:0 0 2px 0; padding:0 0 0 5px; }
+#site_info ul li a { color:#fff; font-size:11px; }
+#site_info div.illustr { float:left; position:relative; }
+#site_info div.illustr img.visuel { left:-20px; position:absolute; top:0; }
+#site_info div.illustr div.text_illustr { left:120px; position:absolute; width:100px; }
+#site_info div.illustr div.text_illustr h3 { color:#bce334; font-size:12px; margin:10px 0 4px 0;  }
+#site_info div.illustr div.text_illustr p { color:#000; margin:0; }
+#site_info div.coords { float:left; padding:10px 10px 0px 15px; width:220px; }
+#site_info div.coords h3 { color:#000; font-size:11px; margin:0; }
+#site_info div.coords p { color:#babdc0; font-size:11px; margin:0; }
+#site_info div.coords p a { color:#ec008c; }
+#site_info div.coords p.rss { margin:10px 0 0 0; }
+#site_info div.coords p.rss a { color:#000; }
+
+#site_footer {  /* ours du site - footer */
+	background:url(navpics/fonds/fd_footer.png) right 0 no-repeat; 
+	height:155px;
+	margin:15px 0 0 0;
+	width:733px;
+}
+
+#site_footer div.coords { float:right; padding:30px 10px 10px 15px; width:700px; }
+
+p.arbo { margin:0 0 10px 0; }
+p.arbo a { text-decoration:underline; }
+
+
+
+/*****************************/
+/*           HOME            */
+/*****************************/
+#content_main div.entrees { }
+#content_main div.entree2, #content_main div.entree3, #content_main div.entree4 { float:left; height:157px; padding:190px 10px 0 21px; position:relative; width:210px; }
+#content_main div.entrees h2 { font-size:20px; font-weight:normal; margin:0; }
+#content_main div.entrees h2 a { color:#fff; display:block; }
+#content_main div.entrees h2 a:hover { text-decoration:none; }
+#content_main div.entrees p { color:#fff; line-height:16px; margin:4px 0 0 0; } 
+#content_main div.entrees p .sousrub { margin:0 4px 0 0;  } 
+#content_main div.entrees p a { color:#fff; } 
+#content_main div.entrees p.spip, #content_main div.entete2 p.spip, #content_main div.entete3 p.spip, #content_main div.entete4 p.spip { color:#caf539; margin:4px 0 0 0; } 
+
+#content_main div.entree2 { background:url(navpics/fonds/fd_entree_plv.gif) 0 bottom no-repeat; }
+#content_main div.entree2 img.logorub { bottom:140px; left:5px; position:absolute; }
+#content_main div.entree3 { background:url(navpics/fonds/fd_entree_packaging.gif) 0 bottom no-repeat; }
+#content_main div.entree3 img.logorub { bottom:130px; left:10px; position:absolute; }
+#content_main div.entree4 { background:url(navpics/fonds/fd_entree_print.gif) 0 bottom no-repeat; }
+#content_main div.entree4 img.logorub { bottom:150px; left:15px; position:absolute; }
+
+
+/*****************************/
+/*        RUBRIQUES          */
+/*****************************/
+#content_main div.entete2, #content_main div.entete3, #content_main div.entete4 { height:99px; padding:0; z-index:1; width:733px; }
+#content_main div.entete2 div.text, #content_main div.entete3 div.text, #content_main div.entete4 div.text { display:inline; float:left; margin:0; padding:14px 0 0 0; width:292px; }
+#content_main div.entete2 h2, #content_main div.entete3 h2, #content_main div.entete4 h2 { color:#fff; font-size:20px; font-weight:normal; margin:0; }
+#content_main div.entete2 div.logorub, #content_main div.entete3 div.logorub, #content_main div.entete4 div.logorub { display:inline; float:left; margin:0 0 0 10px; width:184px; z-index:999; }
+#content_main div.nav_supp {  
+	float:left; 
+	height:89px; 
+	padding:10px 0 0 18px; 
+	width:229px; 
+}
+#content_main div.entete2 div.nav_supp { background:#3c3d3e url(navpics/fonds/fd_nav_supp_2.gif) 0 0 no-repeat; }
+#content_main div.entete3 div.nav_supp { background:#3c3d3e url(navpics/fonds/fd_nav_supp_3.gif) 0 0 no-repeat; }
+#content_main div.entete4 div.nav_supp { background:#3c3d3e url(navpics/fonds/fd_nav_supp_4.gif) 0 0 no-repeat; }
+
+#content_main div.nav_supp ul {}
+#content_main div.nav_supp ul li { line-height:16px; }
+#content_main div.nav_supp ul li a { 
+	color:#bbe335;
+	font-size:11px;
+	padding:0 0 0 10px;
+}
+#content_main div.nav_supp ul li.on a, #content_main div.nav_supp ul li a:hover {
+	background:url(navpics/puces/fleche_blanche.gif) 0 4px no-repeat;
+	color:#fff;
+	text-decoration:none;
+}
+#content_main div.nav_supp ul ul { display:none; }
+#content_main div.nav_supp ul li.on ul { display:block; margin:0 0 0 20px; }
+#content_main div.nav_supp li li { }
+#content_main div.nav_supp li.on li a { background:none; }
+#content_main div.nav_supp li li.on a, #content_main div.nav_supp li li a:hover {
+	background:url(navpics/puces/fleche_blanche.gif) 0 4px no-repeat;
+	color:#fff;
+	text-decoration:none;
+}
+
+div.entete2 { background:url(navpics/fonds/fd_entete_plv.gif) 0 0 repeat-y; border-bottom:8px solid #435011; }
+div.entete3 { background:url(navpics/fonds/fd_entete_packaging.gif) 0 0 repeat-y; border-bottom:8px solid #435011; }
+div.entete4 { background:url(navpics/fonds/fd_entete_print.gif) 0 0 repeat-y; border-bottom:8px solid #435011; }
+
+#illustr { clear:left; display:inline; float:left; margin:15px 0 0 0; width:241px; }
+#illustr div.phto { height:326px; width:241px; }
+#illustr ul.idTabs { width:241px; }
+#illustr ul.idTabs li { display:inline; float:left; height:112px; margin:0 0 0 5px; width:112px; }
+#illustr ul.idTabs li a { border:1px solid #4e4e4f; height:110px; width:110px; }
+#illustr ul.idTabs li a:hover, #illustr ul.idTabs li a.selected { border:1px solid #a1bd3b; }
+
+#principal { float:left; padding:20px 0 0 26px; width:466px; }
+#principal h1 { color:#a1bd3b; font-size:20px; font-weight:normal; line-height:24px; margin:0; }
+#principal h2.soustitre { font-size:20px; font-weight:normal; line-height:24px; margin:0; }
+#principal div.chapo { padding:20px 0 30px 0; }
+#principal div.chapo p.spip { font-size:14px; margin:0; }
+#principal div.text { float:left; padding:0 20px 0 0; width:200px; }
+#principal div.text p.spip:first-child { margin-top:0; }
+#principal div.plan { float:left; padding:20px 0; width:246px; }
+#principal div.plan h2 { color:#3c3e3e; font-size:20px; line-height:16px; font-weight:normal; margin:0;  }
+#principal div.plan ul { background:#3c3e3e; margin:0 0 20px 0; padding:10px 13px 1px 13px; }
+#principal div.plan ul li { margin:0 0 5px 0;  }
+#principal div.plan ul li a { color:#ccc; padding:0 0 0 10px; }
+#principal div.plan ul li a:hover {  }
+#principal div.plan ul li.on a { background:url(navpics/puces/fleche_blanche.gif) 0 4px no-repeat; color:#fff; padding:0 0 0 10px;  }
+
+#principal div.plan p { margin:0;}
+#principal div.plan div.contact_prdt { background:#3c3e3e; color:#8dae29; margin:10px 0 0 0; padding:10px 20px; }
+#principal div.plan div.contact_prdt a { color:#fff;  }
+
+
+/*****************************/
+/*         ARTICLES          */
+/*****************************/
+#content_main div.article { padding:0 140px 55px 20px; width:573px; }
+#content_main div.article h1 { color:#a1bd3b; font-size:20px; font-weight:normal; line-height:24px; margin:0; }
+#content_main div.article p:first-child { margin:24px 0 0 0; }
+
+div.text_variations, div.chapo_variations { color:#9d9e9f; padding:0 0 0 138px; }
+div.chapo_variations p.spip { margin:0; }
+
+/*****************************/
+/*         SPECIFIC          */
+/*****************************/
+.clear { clear:both; height:0; }
+
+.gras { font-weight:bold; }
+.maigre { font-weight:normal; }
+
+.hide { display:none; }
+.bloc { display:block; }
+
+.nomarg { margin-top:0; margin-bottom:0; }
+.nomargtop { margin-top:0; }
+.nomargbot { margin-bottom:0; }
+
+.flotleft { float:left; }
+.flotright { float:right; }
+
+input.submit {
+width:186px; /* la largeur de l'image de fond */
+height:19px; /* la hauteur de l'image de fond */
+background:url(/images/fr/common/boutons/vide.gif) 0 0 no-repeat; /* l'image de fond */
+color:#070707; /* la couleur du texte */
+border:none; /* pas de bordure au bouton sinon il y en a une par defaut */
+font:bold 10px/normal Verdana, Arial, Helvetica, sans-serif; /* les caractéristiques de la police de texte */
+cursor:pointer; /* le curseur en forme de main */
+}
+
+/* backgrounds en PNG */
+a.link_presentation { 
+  /* Mozilla ignores crazy MS image filters, so it will skip the following */
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/images/common/top/presentation.png');
+	background:transparent;
+	cursor:pointer;
+	}	
+a[class="link_presentation"] { 
+	/* IE ignores styles with [attributes], so it will skip the following. */
+	background: url(/images/common/top/presentation.png); 
+}
+
+/* @group Image in a link (a.link_img) */
+a.link_img { display:block; border:3px solid #e9e9e9; width:102px; }
+a.link_img:hover { border:3px solid #08b2e9; }
+
+/* shadows */
+.wrap1, .wrap2, .wrap3 {
+	display:inline-table;
+	/* \*/display:block;/**/} 
+.wrap1 {
+	float:left;
+	background:url(/images/common/fonds/shadow.gif) right bottom no-repeat;}
+.wrap2 {background:url(/images/common/fonds/corner_bl.gif) left bottom no-repeat;}
+.wrap3 {
+	padding:0 4px 5px 0;
+	background:url(/images/common/fonds/corner_tr.gif) right top no-repeat;}
+.wrap3 img {
+	display:block;
+	border:1px solid #2e3226;
+}
