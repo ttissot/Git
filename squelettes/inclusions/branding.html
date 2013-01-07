@@ -1,21 +1,21 @@
 <div id="branding">
-	[(#REM) Afficher le logo ou le titre du site ]
-	<a rel="start" href="#URL_SITE_SPIP/">
-	[(#LOGO_SITE_SPIP||?{
-	
-		[(#LOGO_SITE_SPIP
-			||image_reduire{770,200}
-			|inserer_attribut{alt,[(#NOM_SITE_SPIP|textebrut)]}
-			|inserer_attribut{class,logo}
-			|inserer_attribut{title,[(#NOM_SITE_SPIP|textebrut)]}
-			)]
-	
-		,
-	
-		<span id="nom_site_spip">#NOM_SITE_SPIP</span>
-	})]
-	</a>
-	<a href="http://www.popaiawards.com/nomines_F.php" target="_blank"><img src="/IMG/gif/award.gif" alt="Raynard nominé aux POPAI Awards Paris 2011"></a>
-	#DESCRIPTIF_SITE_SPIP
-	
+  [(#REM) Afficher le logo ou le titre du site ]
+  <a rel="start" href="#URL_SITE_SPIP/">
+  [(#LOGO_SITE_SPIP||?{
+
+    [(#LOGO_SITE_SPIP
+      ||image_reduire{770,200}
+      |inserer_attribut{alt,[(#NOM_SITE_SPIP|textebrut)]}
+      |inserer_attribut{class,logo}
+      |inserer_attribut{title,[(#NOM_SITE_SPIP|textebrut)]}
+      )]
+
+    ,
+
+    <span id="nom_site_spip">#NOM_SITE_SPIP</span>
+  })]
+  </a>
+  <a href="http://www.mesachatsfrancais.fr/" title="Mes Achats Francais" target="_blank"><img src="/IMG/jpg/Label-ofg.jpg" alt="Label origine France garantie" width="227" height="244" /></a>
+  #DESCRIPTIF_SITE_SPIP
+
 </div>
