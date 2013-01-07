@@ -40,6 +40,14 @@ RewriteEngine On
 ################ REGLAGES PERSONNALISES ######################
 # Inscrivez ci-dessous vos reglages supplementaires
 
+# Redirection de .com vers .fr
+RewriteCond %{HTTP_HOST}   ^raynard\.com [NC]
+RewriteRule ^/?(.*)         http://www.raynard.fr/$1 [L,R=301]
+RewriteCond %{HTTP_HOST}   ^www.raynard\.com [NC]
+RewriteRule ^/?(.*)         http://www.raynard.fr/$1 [L,R=301]
+RewriteCond %{HTTP_HOST}   ^raynard\.fr [NC]
+RewriteRule ^/?(.*)         http://www.raynard.fr/$1 [L,R=301]
+
 # Permettre a IE de reconnaitre le win_png.htc de retraitement des png transparents
 AddType text/x-component .htc
 
