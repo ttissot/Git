@@ -1,0 +1,89 @@
+a:7:{s:5:"texte";s:3584:"
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="ltr" lang="fr">
+<head>
+<title>Raynard - Raynard PLV - Précision et savoir faire</title>
+
+<?php
+	$contexte_inclus = array('fond' => 'inc-head',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+
+<link rel="alternate" type="application/rss+xml" title="Syndiquer cette rubrique" href="http://www.raynard.fr/spip.php?page=backend&amp;id_rubrique=1" />
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<?php
+	$contexte_inclus = array('fond' => 'branding',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		<div id="content">
+
+			<?php
+	$contexte_inclus = array('fond' => 'inc-entete',
+	'id_rubrique' => '1',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+			
+			<div id="content_main">
+				<div class="article">
+					
+					<h1>Démarche environnementale</h1>
+					
+					
+					<div class="text">
+<p class="spip"><span class='spip_document_25 spip_documents spip_documents_right'  style='float:right; width:193px;'>
+<img src='IMG/jpg/naturl.jpg' width="193" height="180" alt="" /></span>La démarche environnementale initiée par notre société, 
+avec l’obtention de la Marque IMPRIM’VERT®, 
+se poursuit par la mise en œuvre de mesures visant à 
+répondre à la norme ISO 14001 et à la certification PEFC.
+<br />A ce titre, notre Entreprise s’engage sur 
+les actions prioritaires suivantes&nbsp;: 
+<br /><img src="dist/puce.gif" width="8" height="11" alt="-" />&nbsp;Respect des lois et règlements sur 
+l’Environnement. 
+<br /><img src="dist/puce.gif" width="8" height="11" alt="-" />&nbsp;Respect des consignes de tri des déchets. 
+<br /><img src="dist/puce.gif" width="8" height="11" alt="-" />&nbsp;Diminution de nos consommations d’énergie.
+<br /><img src="dist/puce.gif" width="8" height="11" alt="-" />&nbsp;Diminution de nos consommations d’eau. 
+<br /><img src="dist/puce.gif" width="8" height="11" alt="-" />&nbsp;Sensibilisation de l’ensemble du 
+personnel à la démarche environnementale. 
+<br />Nous inscrivons ainsi, notre action vis-à-vis de 
+l’environnement dans la durée, et répondons à l’évolution des exigences du marché.</p>
+
+<p class="spip"><a href="http://tivipro.tv/chaine_salons.php?id=4297&amp;id_salon=107" class="spip_out">Découvrez l&#8217;interview du Directeur de Raynard, Philippe Palou, lors du dernier Salon Marketing Point de Vente 2008 </a></p>
+
+<p class="spip"><span class='spip_document_204 spip_documents spip_documents_left'  style='float:left; width:100px;'>
+<img src='IMG/jpg/Afaq_14001_4c.jpg' width="100" height="92" alt="Afaq_14001_4c" title="Afaq_14001_4c" /></span><span class='spip_document_205 spip_documents spip_documents_right'  style='float:right; width:100px;'>
+<img src='IMG/jpg/FSC_LOGO-noir-01.jpg' width="100" height="136" alt="FSC_LOGO-noir-01" title="FSC_LOGO-noir-01" /></span><span class='spip_document_206 spip_documents spip_documents_right'  style='float:right; width:100px;'>
+<img src='IMG/jpg/PEFC_2011_Q-01.jpg' width="100" height="130" alt="PEFC_2011_Q-01" title="PEFC_2011_Q-01" /></span></p>
+
+</div>
+					
+					<div class="clear"></div>
+					
+				</div>
+				<img src="squelettes/css/navpics/visuels/frise.jpg" alt="" />
+			</div>
+			
+			<?php
+	$contexte_inclus = array('fond' => 'inc-pied',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		</div>
+		<div class="clear"></div>
+	</div>
+<?php
+	$contexte_inclus = array('fond' => 'inc-ga',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</body>
+</html>
+
+";s:9:"squelette";s:37:"html_c2b6e6835d7f6fba1d86bf702fdd13be";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:20:"5/_Raynard_.6e2fb9a5";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:4:"7200";}s:5:"duree";i:7200;s:8:"contexte";a:4:{s:4:"page";s:8:"rubrique";s:10:"date_redac";s:19:"2016-01-11 10:50:42";s:4:"date";s:19:"2016-01-11 10:50:42";s:11:"id_rubrique";s:1:"1";}}

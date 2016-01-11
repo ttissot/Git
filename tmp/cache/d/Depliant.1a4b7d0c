@@ -1,0 +1,134 @@
+a:7:{s:5:"texte";s:3888:"
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="ltr" lang="fr">
+<head>
+<title>Dépliant - Raynard PLV - Précision et savoir faire</title>
+<meta name="description" content="Format 210X297mm Impression : Quadri Finition : vernis ou pelliculage Support : couché moderne 135gr Ref. PR003" />
+<?php
+	$contexte_inclus = array('fond' => 'inc-head',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery-1.2.3.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery.idTabs.pack.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery.idTabs.pack.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/facebox/facebox.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('a[rel*=facebox]').facebox() 
+})
+</script>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<?php
+	$contexte_inclus = array('fond' => 'branding',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		<div id="content">
+
+			<?php
+	$contexte_inclus = array('fond' => 'inc-entete',
+	'id_rubrique' => '22',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+			
+			<div id="content_main">
+				<div class="entete4">
+					
+					<div class="logorub"><a href="-Print-.html"><img src="local/cache-vignettes/L110xH109/rubon4-9e642.png" alt="" width='110' height='109' class='spip_logos format_png'  style='height:109px;width:110px;' /></a></div>
+					<div class="text">
+						<h2><span style='text-transform: uppercase;'>Print</span></h2>
+						
+<p class="spip">Qualité et performance</p>
+
+					</div>
+					
+					
+					<?php
+	$contexte_inclus = array('fond' => 'sousmenu',
+	'id_secteur' => '4',
+	'id_article' => '23',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+					<div class="clear"></div>
+				</div>
+
+				<div id="illustr">
+					
+					<div class="phto" id="numero41">
+						<a href="IMG/jpg/depliant.jpg" rel="facebox"><img src='local/cache-vignettes/L241xH233/depliant-e02ac.jpg' width='241' height='233' style='height:233px;width:241px;' class='' /></a>
+					</div>
+					
+					
+					
+					
+					 
+					
+					<div class="clear"></div>
+				</div>
+				<div id="principal">
+					
+					<h1>Dépliant</h1>
+					<h2 class="soustitre">Le multiplis économique</h2>
+					<div class="text">
+						<div class="chapo">
+<p class="spip">Format 210X297mm
+<br />Impression&nbsp;: Quadri
+<br />Finition&nbsp;: vernis ou pelliculage
+<br />Support&nbsp;: couché moderne 135gr</p>
+</div>
+						
+<p class="spip"><strong class="spip">Ref. PR003</strong></p>
+
+					</div>
+					<div class="plan">
+						
+						<h2><span style='text-transform: uppercase;'>Plaquettes</span></h2>
+						
+						
+						<ul>
+						
+							<li class="on"><a href="Depliant.html">Dépliant</a></li>
+						
+							<li><a href="Chemise-a-rabat.html">Chemise à rabat</a></li>
+						
+						</ul>
+						
+						
+						<a href="IMG/gif/plan_print.gif"><img src='local/cache-vignettes/L244xH221/plan_print-0d811.gif' width='244' height='221' style='height:221px;width:244px;' class='' /></a>
+						<p>À partir de 5000 exemplaires</p>
+						
+						<div class="contact_prdt">
+							<p>VOUS SOUHAITEZ AVOIR DES INFORMATIONS SUR CE PRODUIT ?<br /><a href="spip.php?rubrique6">CLIQUEZ ICI POUR NOUS CONTACTER</a></p>
+						</div>
+					</div>
+					<div class="clear"></div>
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<?php
+	$contexte_inclus = array('fond' => 'inc-pied',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		</div>
+		<div class="clear"></div>
+	</div>
+<?php
+	$contexte_inclus = array('fond' => 'inc-ga',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</body>
+</html>
+
+";s:9:"squelette";s:37:"html_545ed4edc8a710503d83b00052bafb06";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:19:"d/Depliant.1a4b7d0c";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:5:"86400";}s:5:"duree";i:86400;s:8:"contexte";a:4:{s:4:"page";s:7:"article";s:10:"date_redac";s:19:"2016-01-11 10:50:54";s:4:"date";s:19:"2016-01-11 10:50:54";s:10:"id_article";s:2:"23";}}

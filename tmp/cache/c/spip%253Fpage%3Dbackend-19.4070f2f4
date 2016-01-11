@@ -1,0 +1,46 @@
+a:7:{s:5:"texte";s:1272:"
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>
+
+<channel>
+	<title>Raynard PLV - Pr&#233;cision et savoir faire</title>
+	<link>http://www.raynard.fr/</link>
+	<description>Groupe EXACOMPTA CLAIREFONTAINE
+Feuille, cartonnage ou contrecollage Nous imprimons en feuille &#224; feuille sur carton jusqu'au 700 grammes sur polypropyl&#232;ne (support synth&#233;tique) nano cannelure &#171; Notre savoir-faire &#224; votre service &#187; Pr&#233; presse Print contrecollage D&#233;coupe Fa&#231;onnage Logistique T&#233;l&#233;chargez notre catalogue</description>
+	<language>fr</language>
+	<generator>SPIP - www.spip.net</generator>
+
+	<image>
+		<title>Raynard PLV - Pr&#233;cision et savoir faire</title>
+		<url>http://www.raynard.fr/IMG/siteon0.png</url>
+		<link>http://www.raynard.fr/</link>
+		<height>54</height>
+		<width>193</width>
+	</image>
+
+
+
+<?php
+	$contexte_inclus = array('fond' => 'inc-rss-item',
+	'id_article' => '24',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+
+<?php
+	$contexte_inclus = array('fond' => 'inc-rss-item',
+	'id_article' => '16',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+
+
+
+
+</channel>
+
+</rss>
+";s:9:"squelette";s:37:"html_5c759b9494210182833bdddba659202a";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"c/spip%3Fpage%3Dbackend-19.4070f2f4";}s:7:"entetes";a:3:{s:12:"X-Spip-Cache";s:4:"3600";s:12:"Content-Type";s:23:"text/xml; charset=utf-8";s:10:"X-Xml-Hack";s:2:"ok";}s:5:"duree";i:3600;s:8:"contexte";a:4:{s:4:"page";s:7:"backend";s:11:"id_rubrique";s:2:"19";s:10:"date_redac";s:19:"2016-01-11 08:50:57";s:4:"date";s:19:"2016-01-11 08:50:57";}}

@@ -1,0 +1,42 @@
+a:7:{s:5:"texte";s:1240:"
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<meta name="generator" content="SPIP 1.9.2i [11132]" />
+
+
+<link rel="shortcut icon" href="squelettes/favicon.ico" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Syndiquer tout le site" href="http://www.raynard.fr/spip.php?page=backend" />
+
+
+<link rel="stylesheet" href="squelettes/css/spip_style.css" type="text/css" media="all" />
+
+
+<link rel="stylesheet" href="squelettes/css/habillage.css" type="text/css" media="projection, screen, tv" />
+
+
+<link rel="stylesheet" href="squelettes/css/impression.css" type="text/css" media="print" />
+
+
+<link rel="stylesheet" href="squelettes/css/menu.css" type="text/css" media="projection, screen, tv" />
+
+
+
+<script src="http://www.raynard.fr/spip.php?page=jquery.js" type="text/javascript"></script>
+<!-- insert_head --><link rel='stylesheet' href='http://www.raynard.fr/spip.php?page=forms_styles.css' type='text/css' media='all' />
+
+
+<!--[if IE 6]>
+	<link href="squelettes/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+	<link href="squelettes/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style type="text/css">
+img {
+   behavior: url("/win_png.htc");
+}
+</style>";s:9:"squelette";s:37:"html_b87a4581faa69647f896a3fc70952285";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:23:"5/-inc_head-fr.01051834";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:5:"86400";}s:5:"duree";i:86400;s:8:"contexte";a:4:{s:4:"fond";s:8:"inc-head";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2016-01-11 10:50:47";s:10:"date_redac";s:19:"2016-01-11 10:50:47";}}

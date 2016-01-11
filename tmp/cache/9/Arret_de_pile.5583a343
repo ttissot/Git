@@ -1,0 +1,147 @@
+a:7:{s:5:"texte";s:4587:"
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="ltr" lang="fr">
+<head>
+<title>Arrêt de pile - Raynard PLV - Précision et savoir faire</title>
+<meta name="description" content="Format : 334 x 325 mm Impression : quadri Finition : vernis ou pelliculage Support : carton couché 1 face 350 gr Ref. PLV006 L’arrêt de pile (...)" />
+<?php
+	$contexte_inclus = array('fond' => 'inc-head',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery-1.2.3.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery.idTabs.pack.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery.idTabs.pack.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/facebox/facebox.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('a[rel*=facebox]').facebox() 
+})
+</script>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<?php
+	$contexte_inclus = array('fond' => 'branding',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		<div id="content">
+
+			<?php
+	$contexte_inclus = array('fond' => 'inc-entete',
+	'id_rubrique' => '18',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+			
+			<div id="content_main">
+				<div class="entete2">
+					
+					<div class="logorub"><a href="-PLV-.html"><img src="local/cache-vignettes/L127xH109/rubon2-2bec1.png" alt="" width='127' height='109' class='spip_logos format_png'  style='height:109px;width:127px;' /></a></div>
+					<div class="text">
+						<h2><span style='text-transform: uppercase;'>PLV</span></h2>
+						
+<p class="spip">Contrecollé, rembordé, en volume, plus de 3 millions d&#8217;exemplaires de PLV sortent chaque année de nos ateliers.</p>
+
+					</div>
+					
+					
+					<?php
+	$contexte_inclus = array('fond' => 'sousmenu',
+	'id_secteur' => '2',
+	'id_article' => '26',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+					<div class="clear"></div>
+				</div>
+
+				<div id="illustr">
+					
+					<div class="phto" id="numero60">
+						<a href="IMG/jpg/arret_pileB.jpg" rel="facebox"><img src='local/cache-vignettes/L241xH233/arret_pileB-43f90.jpg' width='241' height='233' style='height:233px;width:241px;' class='' /></a>
+					</div>
+					
+					<div class="phto" id="numero28">
+						<a href="IMG/jpg/arret_de_pile.jpg" rel="facebox"><img src='local/cache-vignettes/L241xH233/arret_de_pile-82034.jpg' width='241' height='233' style='height:233px;width:241px;' class='' /></a>
+					</div>
+					
+					
+					
+					
+					 
+					<?php
+	$contexte_inclus = array('fond' => 'vignettes',
+	'id_article' => '26',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+					
+					
+					
+					<div class="clear"></div>
+				</div>
+				<div id="principal">
+					<h1>Arrêt de pile</h1>
+					<h2 class="soustitre">Indispensable pour mettre vos livres en tête</h2>
+					<div class="text">
+						<div class="chapo">
+<p class="spip">Format&nbsp;: 334 x 325 mm
+<br />Impression&nbsp;: quadri
+<br />Finition&nbsp;: vernis ou pelliculage
+<br />Support&nbsp;: carton couché 1 face 350 gr</p>
+</div>
+						
+<p class="spip"><strong class="spip">Ref. PLV006</strong></p>
+
+<p class="spip">L&#8217;arrêt de pile valorise efficacement vos produits nouveaux.</p>
+
+
+					</div>
+					<div class="plan">
+						
+						<h2><span style='text-transform: uppercase;'>PLV Porte-dépliants</span></h2>
+						
+						
+						<ul>
+						
+							<li><a href="Porte-depliants.html">Porte-dépliants</a></li>
+						
+							<li class="on"><a href="Arret-de-pile.html">Arrêt de pile</a></li>
+						
+						</ul>
+						
+						
+						<a href="IMG/gif/arretpile_mat.gif"><img src='local/cache-vignettes/L246xH239/arretpile_mat-f43fe.gif' width='246' height='239' style='height:239px;width:246px;' class='' /></a>
+						<p>A partir de 500 exemplaires</p>
+						
+						<div class="contact_prdt">
+							<p>VOUS SOUHAITEZ AVOIR DES INFORMATIONS SUR CE PRODUIT ?<br /><a href="spip.php?rubrique6">CLIQUEZ ICI POUR NOUS CONTACTER</a></p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<?php
+	$contexte_inclus = array('fond' => 'inc-pied',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		</div>
+		<div class="clear"></div>
+	</div>
+<?php
+	$contexte_inclus = array('fond' => 'inc-ga',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</body>
+</html>
+
+";s:9:"squelette";s:37:"html_7dde7f0201f005edfcb28a663bebd50e";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:24:"9/Arret_de_pile.5583a343";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:5:"86400";}s:5:"duree";i:86400;s:8:"contexte";a:4:{s:4:"page";s:7:"article";s:10:"date_redac";s:19:"2016-01-11 03:04:40";s:4:"date";s:19:"2016-01-11 03:04:40";s:10:"id_article";s:2:"26";}}

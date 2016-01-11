@@ -1,0 +1,91 @@
+a:7:{s:5:"texte";s:2622:"
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="ltr" lang="fr">
+<head>
+<title>PLV - Raynard PLV - Précision et savoir faire</title>
+<meta name="description" content="Raynard abrite le plus grand parc de contrecollage d’europe et maîtrise les techniques les plus pointues du cartonnage. Contrecollé, rembordé, avec (...)" />
+<?php
+	$contexte_inclus = array('fond' => 'inc-head',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+<script language="javascript" src="squelettes/javascript/jquery-1.2.3.js" type="text/javascript"></script>
+<script language="javascript" src="squelettes/javascript/jquery.idTabs.pack.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<?php
+	$contexte_inclus = array('fond' => 'branding',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		<div id="content">
+
+			<?php
+	$contexte_inclus = array('fond' => 'inc-entete',
+	'id_rubrique' => '1',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+			
+			<div id="content_main">
+				<div class="entete1">
+					
+					<div class="text">
+						<h2><span style='text-transform: uppercase;'>PLV</span></h2>
+						
+					</div>
+					
+					<?php
+	$contexte_inclus = array('fond' => 'sousmenu',
+	'id_rubrique' => '1',
+	'id_article' => '16',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+					<div class="clear"></div>
+				</div>
+				<div id="illustr">
+					
+					<ul class="idTabs">
+						
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div id="principal">
+					
+					<h1 class="plv">PLV</h1>
+					
+					<div class="chapo">
+<p class="spip">Raynard abrite le plus grand parc de contrecollage d’europe et maîtrise les techniques les plus pointues du cartonnage.</p>
+</div>
+					<div class="text">
+<p class="spip">Contrecollé, rembordé, avec chevalet, en volume, plus de 3 millions d’exemplaires de P.L.V. passent tous les ans dans nos ateliers. Une gamme étendue de produits standard vous assure une grande possibilité de choix à des coûts optimisés. Une logistique performante permet de gérer la constitution de kits PLV et leur routage vers plus de 1 000 destinations.</p>
+</div>
+					
+					<div class="clear"></div>
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<?php
+	$contexte_inclus = array('fond' => 'inc-pied',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		</div>
+		<div class="clear"></div>
+	</div>
+<?php
+	$contexte_inclus = array('fond' => 'inc-ga',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</body>
+</html>
+
+";s:9:"squelette";s:37:"html_cacdcec900dda37f91a9aadf1f0cd7f1";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:19:"5/PLV%2C32.1fbfbfc2";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:5:"86400";}s:5:"duree";i:86400;s:8:"contexte";a:4:{s:4:"page";s:7:"article";s:10:"date_redac";s:19:"2016-01-11 06:18:03";s:4:"date";s:19:"2016-01-11 06:18:03";s:10:"id_article";s:2:"32";}}

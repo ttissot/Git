@@ -1,0 +1,150 @@
+a:7:{s:5:"texte";s:4257:"
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="ltr" lang="fr">
+<head>
+<title>PLV - Raynard PLV - Précision et savoir faire</title>
+<meta name="description" content="Une expérience de leader dans le contrecollage." />
+<?php
+	$contexte_inclus = array('fond' => 'inc-head',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+
+<link rel="alternate" type="application/rss+xml" title="Syndiquer cette rubrique" href="http://www.raynard.fr/spip.php?page=backend&amp;id_rubrique=2" />
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery-1.2.3.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery.idTabs.pack.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/facebox/facebox.js"></script>
+<link rel="stylesheet" href="squelettes/facebox/facebox.css" media="screen" />
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('a[rel*=facebox]').facebox() 
+})
+</script>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<?php
+	$contexte_inclus = array('fond' => 'branding',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		<div id="content">
+
+			<?php
+	$contexte_inclus = array('fond' => 'inc-entete',
+	'id_rubrique' => '2',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+			
+			<div id="content_main">
+				<div class="entete2">
+					
+					<div class="logorub"><a href="-PLV-.html"><img src="local/cache-vignettes/L127xH109/rubon2-2bec1.png" alt="" width='127' height='109' class='spip_logos format_png'  style='height:109px;width:127px;' /></a></div>
+					<div class="text">
+						<h2><span style='text-transform: uppercase;'>PLV</span></h2>
+						
+<p class="spip">Contrecollé, rembordé, en volume, plus de 3 millions d&#8217;exemplaires de PLV sortent chaque année de nos ateliers.</p>
+
+					</div>
+					
+					
+					
+					<?php
+	$contexte_inclus = array('fond' => 'sousmenu',
+	'id_secteur' => '2',
+	'id_rubrique' => '19',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+					
+					<div class="clear"></div>
+				</div>
+				
+				
+				<div id="illustr">
+					
+					
+					<div class="phto" id="numero26">
+						<a href="IMG/jpg/plv1.jpg" rel="facebox"><img src='local/cache-vignettes/L241xH233/plv1-66f67.jpg' width='241' height='233' style='height:233px;width:241px;' class='' /></a>
+					</div>
+					
+					
+					
+					
+					
+					 
+					
+
+					
+					<div class="clear"></div>
+				</div>
+				<div id="principal">
+					
+					<h1>Chevalet triangle</h1>
+					<h2 class="soustitre">Efficacité et simplicité pour les comptoirs</h2>
+					<div class="text">
+						<div class="chapo">
+<p class="spip">Format 210X297mm
+<br />Impression&nbsp;: Quadri
+<br />Finition&nbsp;: vernis ou pelliculage
+<br />Support&nbsp;: couché moderne 135gr contrecollé</p>
+</div>
+						
+<p class="spip"><strong class="spip">Ref. PLV001</strong></p>
+
+<p class="spip">Le chevalet triangle est la PLV idéale pour la mise en avant de vos produits en vitrine.</p>
+
+
+					</div>
+					
+					<div class="plan">
+						
+						<h2><span style='text-transform: uppercase;'>PLV Chevalets</span></h2>
+						
+						
+						<ul>
+						
+							<li class="on"><a href="PLV.html">Chevalet triangle</a></li>
+						
+						
+							<li><a href="Chevalet.html">Chevalet de comptoir</a></li>
+						
+						</ul>
+						
+						
+						
+						<a href="IMG/gif/plan_plv.gif" rel="facebox"><img src='local/cache-vignettes/L246xH159/plan_plv-60d5d.gif' width='246' height='159' style='height:159px;width:246px;' class='' /></a>
+						<p>À partir de 500 exemplaires</p>
+						
+						
+						<div class="contact_prdt">
+							<p>VOUS SOUHAITEZ AVOIR DES INFORMATIONS SUR CE PRODUIT ?<br /><a href="spip.php?rubrique6">CLIQUEZ ICI POUR NOUS CONTACTER</a></p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				
+				<div class="clear"></div>
+			</div>
+			
+			<?php
+	$contexte_inclus = array('fond' => 'inc-pied',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		</div>
+		<div class="clear"></div>
+	</div>
+<?php
+	$contexte_inclus = array('fond' => 'inc-ga',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</body>
+</html>
+
+";s:9:"squelette";s:37:"html_44df2916b65bb56d0d8ed3e943433464";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:16:"c/_PLV_.117e1201";}s:7:"entetes";a:3:{s:12:"X-Spip-Cache";s:1:"0";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";}s:5:"duree";i:0;s:8:"contexte";a:4:{s:4:"page";s:8:"rubrique";s:10:"date_redac";s:19:"2016-01-11 10:50:45";s:4:"date";s:19:"2016-01-11 10:50:45";s:11:"id_rubrique";s:1:"2";}}

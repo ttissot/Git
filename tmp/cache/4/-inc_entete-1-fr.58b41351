@@ -1,0 +1,21 @@
+a:7:{s:5:"texte";s:1040:"			
+			<div id="header">
+				<img src="squelettes/css/navpics/titres/baseline.png" alt="Précision et savoir-faire" class="baseline" />
+				<ul id="nav_main">
+					<li id="menu0"><a href="http://www.raynard.fr">ACCUEIL</a></li>
+					
+					<li id="menu1" class="on"><a href="-Raynard-.html"><span style='text-transform: uppercase;'>Raynard</span></a></li>
+					
+					<li id="menu2"><a href="-PLV-.html"><span style='text-transform: uppercase;'>PLV</span></a></li>
+					
+					<li id="menu3"><a href="-Packaging-.html"><span style='text-transform: uppercase;'>Packaging</span></a></li>
+					
+					<li id="menu4"><a href="-Print-.html"><span style='text-transform: uppercase;'>Print</span></a></li>
+					
+					<li id="menu5"><a href="-Sur-mesure-.html"><span style='text-transform: uppercase;'>Sur mesure</span></a></li>
+					
+					<li id="menu6"><a href="-Contact-.html"><span style='text-transform: uppercase;'>Contact</span></a></li>
+					
+				</ul>
+				<img src="squelettes/css/navpics/visuels/carres.gif" alt="" class="carres" />
+			</div>";s:9:"squelette";s:37:"html_a208dc1d6a794bda49c7033983df5eb1";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:27:"4/-inc_entete-1-fr.58b41351";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:3600;}s:5:"duree";i:0;s:8:"contexte";a:5:{s:4:"fond";s:10:"inc-entete";s:11:"id_rubrique";s:1:"1";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2016-01-11 10:50:42";s:10:"date_redac";s:19:"2016-01-11 10:50:42";}}

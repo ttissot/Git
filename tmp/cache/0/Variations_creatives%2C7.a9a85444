@@ -1,0 +1,93 @@
+a:7:{s:5:"texte";s:2361:"
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="ltr" lang="fr">
+<head>
+<title>Variations créatives - Raynard PLV - Précision et savoir faire</title>
+
+<?php
+	$contexte_inclus = array('fond' => 'inc-head',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+<script language="javascript" src="squelettes/javascript/jquery-1.2.3.js" type="text/javascript"></script>
+<script language="javascript" src="squelettes/javascript/jquery.idTabs.pack.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<?php
+	$contexte_inclus = array('fond' => 'branding',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		<div id="content">
+
+			<?php
+	$contexte_inclus = array('fond' => 'inc-entete',
+	'id_rubrique' => '7',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+			
+			<div id="content_main">
+				<div class="entete7">
+					
+					<div class="text">
+						<h2><span style='text-transform: uppercase;'>Variations créatives</span></h2>
+						
+					</div>
+					
+					<?php
+	$contexte_inclus = array('fond' => 'sousmenu',
+	'id_rubrique' => '7',
+	'id_article' => '16',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+					<div class="clear"></div>
+				</div>
+				<div id="illustr">
+					
+					<div id="numero165">
+						<a href="IMG/png/HUITVariationCreativ.png"><img src='local/cache-vignettes/L189xH153/HUITVariationCreativ-9585f.png' width='189' height='153' style='height:153px;width:189px;' class=' format_png' /></a>
+					</div>
+					
+					<ul class="idTabs">
+						
+						<li><a href="#numero165"><img src='local/cache-vignettes/L150xH122/HUITVariationCreativ-885a5.png' width='150' height='122' style='height:122px;width:150px;' class='spip_logos'  alt='' /></a></li>
+						
+					</ul>
+					<div class="clear"></div>
+				</div>
+				<div id="principal">
+					
+					<h1 class="plv">Variations créatives</h1>
+					
+					
+					
+					
+					<div class="clear"></div>
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<?php
+	$contexte_inclus = array('fond' => 'inc-pied',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		</div>
+		<div class="clear"></div>
+	</div>
+<?php
+	$contexte_inclus = array('fond' => 'inc-ga',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</body>
+</html>
+
+";s:9:"squelette";s:37:"html_cacdcec900dda37f91a9aadf1f0cd7f1";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:35:"0/Variations_creatives%2C7.a9a85444";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:5:"86400";}s:5:"duree";i:86400;s:8:"contexte";a:4:{s:4:"page";s:7:"article";s:10:"date_redac";s:19:"2016-01-11 02:35:22";s:4:"date";s:19:"2016-01-11 02:35:22";s:10:"id_article";s:1:"7";}}

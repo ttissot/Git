@@ -1,0 +1,26 @@
+a:1:{s:21:"forms_et_tables_1_9_1";a:13:{s:3:"nom";s:119:" 
+	<multi>[ar]الاستمارات[en]Forms[fr]Formulaires&amp;Tables[it] Forms[es] Formularios</multi> (SPIP 1.9.1+)
+	";s:7:"version";s:5:"0.304";s:6:"auteur";s:238:"<multi>[ar]انطوان بترو، سيدريك موران، ريناتو
+		[fr]Antoine Pitrou, Cedric Morin, Renato Formato
+		[it]Antoine Pitrou, Cedric Morin, Renato Formato
+	  [es]Antoine Pitrou, Cedric Morin, Renato Formato
+		</multi>";s:4:"icon";s:20:"img_pack/form-24.png";s:11:"description";s:1148:"<multi>
+	[ar]إدارة الاستمارات وتحريرها.
+يتيح هذا الملحق أيضاً نشر الاستطلاعات والتحقيقات وحفظ الردود عليها في قاعرد البيانات وتحميلها بتنسيق CSV
+	[en]editable forms management an administration.
+	This plugin can also publish polls and surveys, store the replies in the database and upload them in CSV format
+      [fr]Gestion et administration de formulaires éditables.
+	Ce plugin permet également la publication de sondages et enquètes, la collecte des reponses dans la base de données et le téléchargement au format csv
+	[it]Gestione ed amministrazione di form modificabili.
+	Questo plugin consente anche la publicazione di sondaggi ed inchieste, la raccolta delle risposte all'interno della base dati e le mette a disposizione per lo scaricamento in formato csv
+      [es]Gesti&oacute;n y administraci&oacute;n de formularios editables.
+	Este plugin también permite la publicaci&oacute;n de sondeos y encuestas, la colecta de las respuestas en la base de datos y su descarga en formato CSV (Comma Sepparated Variables).
+	</multi>";s:4:"lien";s:50:"http://zone.spip.org/trac/spip-zone/wiki/SpipForms";s:4:"etat";s:6:"stable";s:7:"options";a:1:{i:0;s:22:" 
+	forms_options.php
+	";}s:7:"install";a:1:{i:0;s:22:"base/forms_upgrade.php";}s:9:"fonctions";a:3:{i:0;s:24:" 
+	forms_fonctions.php
+	";i:1;s:29:" 
+	public/forms_boucles.php
+	";i:2;s:29:" 
+	public/forms_balises.php
+	";}s:6:"prefix";s:5:"Forms";s:8:"pipeline";a:9:{i:0;a:1:{s:3:"nom";a:1:{i:0;s:15:"definir_session";}}i:1;a:3:{s:3:"nom";a:1:{i:0;s:10:"pre_propre";}s:6:"action";a:1:{i:0;s:18:"forms_avant_propre";}s:7:"inclure";a:1:{i:0;s:17:"forms_filtres.php";}}i:2;a:3:{s:3:"nom";a:1:{i:0;s:11:"post_propre";}s:6:"action";a:1:{i:0;s:18:"forms_apres_propre";}s:7:"inclure";a:1:{i:0;s:17:"forms_filtres.php";}}i:3;a:2:{s:3:"nom";a:1:{i:0;s:11:"insert_head";}s:7:"inclure";a:1:{i:0;s:17:"forms_filtres.php";}}i:4;a:2:{s:3:"nom";a:1:{i:0;s:12:"post_edition";}s:7:"inclure";a:1:{i:0;s:17:"forms_filtres.php";}}i:5;a:3:{s:3:"nom";a:1:{i:0;s:14:"affiche_droite";}s:6:"action";a:1:{i:0;s:14:"affiche_droite";}s:7:"inclure";a:1:{i:0;s:18:"forms_pipeline.php";}}i:6;a:2:{s:3:"nom";a:1:{i:0;s:12:"header_prive";}s:7:"inclure";a:1:{i:0;s:18:"forms_pipeline.php";}}i:7;a:2:{s:3:"nom";a:1:{i:0;s:15:"ajouter_boutons";}s:7:"inclure";a:1:{i:0;s:18:"forms_pipeline.php";}}i:8;a:2:{s:3:"nom";a:1:{i:0;s:14:"affiche_milieu";}s:7:"inclure";a:1:{i:0;s:18:"forms_pipeline.php";}}}s:9:"filemtime";i:1352297861;}}

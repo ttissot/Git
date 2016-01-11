@@ -1,0 +1,144 @@
+a:7:{s:5:"texte";s:4018:"
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="ltr" lang="fr">
+<head>
+<title>Catalogue - Raynard PLV - Précision et savoir faire</title>
+
+<?php
+	$contexte_inclus = array('fond' => 'inc-head',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+
+<link rel="alternate" type="application/rss+xml" title="Syndiquer cette rubrique" href="http://www.raynard.fr/spip.php?page=backend&amp;id_rubrique=23" />
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery-1.2.3.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery.idTabs.pack.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/facebox/facebox.js"></script>
+<link rel="stylesheet" href="squelettes/facebox/facebox.css" media="screen" />
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('a[rel*=facebox]').facebox() 
+})
+</script>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<?php
+	$contexte_inclus = array('fond' => 'branding',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		<div id="content">
+
+			<?php
+	$contexte_inclus = array('fond' => 'inc-entete',
+	'id_rubrique' => '23',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+			
+			<div id="content_main">
+				<div class="entete4">
+					
+					<div class="logorub"><a href="-Print-.html"><img src="local/cache-vignettes/L110xH109/rubon4-9e642.png" alt="" width='110' height='109' class='spip_logos format_png'  style='height:109px;width:110px;' /></a></div>
+					<div class="text">
+						<h2><span style='text-transform: uppercase;'>Print</span></h2>
+						
+<p class="spip">Qualité et performance</p>
+
+					</div>
+					
+					
+					<?php
+	$contexte_inclus = array('fond' => 'sousmenu',
+	'id_secteur' => '4',
+	'id_rubrique' => '23',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+					<div class="clear"></div>
+				</div>
+
+				<div id="illustr">
+					
+					
+					<div class="phto" id="numero39">
+						<a href="IMG/jpg/broch_piquee.jpg" rel="facebox"><img src='local/cache-vignettes/L241xH233/broch_piquee-35065.jpg' width='241' height='233' style='height:233px;width:241px;' class='' /></a>
+					</div>
+					
+
+					
+					
+					
+					 
+					
+
+					
+					<div class="clear"></div>
+				</div>
+				<div id="principal">
+					
+					<h1>Brochure piquée</h1>
+					<h2 class="soustitre">Traditionnelle et toujours efficace</h2>
+					<div class="text">
+						<div class="chapo">
+<p class="spip">Format&nbsp;: 210 x 297 mm
+<br />Nombre de pages&nbsp;: 32 + couverture
+<br />Brochure&nbsp;: piquée plate ou à boucles
+<br />Impression&nbsp;: quadri
+<br />Support&nbsp;: couché moderne 250 et 135 gr</p>
+</div>
+						
+<p class="spip"><strong class="spip">Ref. PR001</strong></p>
+
+					</div>
+					
+					<div class="plan">
+						
+						<h2><span style='text-transform: uppercase;'>Catalogue</span></h2>
+						
+						
+						<ul>
+						
+							<li class="on"><a href="Brochure-piquee.html">Brochure piquée</a></li>
+						
+						
+							<li><a href="Reliure-Wire-o.html">Reliure Wire&#8217;o</a></li>
+						
+						</ul>
+						
+						
+						
+						<a href="IMG/gif/broch_mat.gif" rel="facebox"><img src='local/cache-vignettes/L246xH239/broch_mat-ce9b8.gif' width='246' height='239' style='height:239px;width:246px;' class='' /></a>
+						<p>A partir de 2000 exemplaires</p>
+						
+						
+						<div class="contact_prdt">
+							<p>VOUS SOUHAITEZ AVOIR DES INFORMATIONS SUR CE PRODUIT ?<br /><a href="spip.php?rubrique6">CLIQUEZ ICI POUR NOUS CONTACTER</a></p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<?php
+	$contexte_inclus = array('fond' => 'inc-pied',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		</div>
+		<div class="clear"></div>
+	</div>
+<?php
+	$contexte_inclus = array('fond' => 'inc-ga',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</body>
+</html>
+
+";s:9:"squelette";s:37:"html_776fc2f778f7d9b4e54559205df46fe4";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:22:"e/_Catalogue_.f2fa62b3";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:4:"7200";}s:5:"duree";i:7200;s:8:"contexte";a:4:{s:4:"page";s:8:"rubrique";s:10:"date_redac";s:19:"2016-01-11 10:52:13";s:4:"date";s:19:"2016-01-11 10:52:13";s:11:"id_rubrique";s:2:"23";}}

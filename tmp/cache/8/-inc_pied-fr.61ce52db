@@ -1,0 +1,51 @@
+a:7:{s:5:"texte";s:1824:"    <div id="site_info">
+      
+      <div class="variations">
+        
+          <div class="text">
+            <h2><span style='text-transform: uppercase;'>Variations créatives</span></h2>
+            
+<p class="spip">les idées de nos clients, récemment mises en forme</p>
+
+            <ul>
+              <li><a href="/spip.php?rubrique5">Voir le portfolio</a></li>
+              <li><a href="/spip.php?rubrique6">Nous contacter</a></li>
+            </ul>
+          </div>
+          
+          
+          <div class="illustr">
+            
+            <img src='local/cache-vignettes/L180xH145/HUITVariationCreativ-e4d1e.png' width='180' height='145' style='height:145px;width:180px;' class='visuel'  />
+            <div class="text_illustr">
+              <h3>Chevalet bi-face HUIT</h3>
+              <p>Pour les vitrines des boutiques, HUIT nous confie la réalisation de ce présentoir.</p>
+            </div>
+            <div class="clear"></div>
+            
+          </div>
+          <B_img_variations>
+          
+        
+        <div class="clear"></div>
+      </div>
+      
+      <div class="coords">
+        <img src="squelettes/css/navpics/visuels/donner_forme_imagination.gif" alt="" class="visuel" />
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+
+    </div>
+    <div id="site_footer">
+    <div class="coords">
+        <img src="squelettes/css/navpics/logos/afaq_imprimvert.png" alt="" class="flotright" />
+        <p>RAYNARD SAS - 6, rue de la Peltière - 35130 La Guerche de Bretagne<br />Tel : 02 99 96 31 01 - <a href="mailto:raynard@raynard.fr">raynard@raynard.fr</a></p>
+
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    </div>
+
+<!-- SPIP-CRON --><div style="background-image: url('http://www.raynard.fr/spip.php?action=cron');"></div>
+";s:9:"squelette";s:37:"html_f23a026dde941f59093b71621ecdd39a";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:23:"8/-inc_pied-fr.61ce52db";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:3600;}s:5:"duree";i:0;s:8:"contexte";a:4:{s:4:"fond";s:8:"inc-pied";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2016-01-11 10:50:47";s:10:"date_redac";s:19:"2016-01-11 10:50:47";}}

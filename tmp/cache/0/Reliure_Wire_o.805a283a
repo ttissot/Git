@@ -1,0 +1,136 @@
+a:7:{s:5:"texte";s:4046:"
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="ltr" lang="fr">
+<head>
+<title>Reliure Wire'o - Raynard PLV - Précision et savoir faire</title>
+<meta name="description" content="Format : 300 x 300 mm Nombre de pages : 24 Reliure : wire’o Impression : quadri Support : couché moderne mat ou brillant 350 gr couverture et (...)" />
+<?php
+	$contexte_inclus = array('fond' => 'inc-head',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery-1.2.3.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery.idTabs.pack.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/javascript/jquery.idTabs.pack.js"></script>
+<script language="javascript" type="text/javascript" src="squelettes/facebox/facebox.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+  $('a[rel*=facebox]').facebox() 
+})
+</script>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		<?php
+	$contexte_inclus = array('fond' => 'branding',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		<div id="content">
+
+			<?php
+	$contexte_inclus = array('fond' => 'inc-entete',
+	'id_rubrique' => '23',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+			
+			<div id="content_main">
+				<div class="entete4">
+					
+					<div class="logorub"><a href="-Print-.html"><img src="local/cache-vignettes/L110xH109/rubon4-9e642.png" alt="" width='110' height='109' class='spip_logos format_png'  style='height:109px;width:110px;' /></a></div>
+					<div class="text">
+						<h2><span style='text-transform: uppercase;'>Print</span></h2>
+						
+<p class="spip">Qualité et performance</p>
+
+					</div>
+					
+					
+					<?php
+	$contexte_inclus = array('fond' => 'sousmenu',
+	'id_secteur' => '4',
+	'id_article' => '30',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+					<div class="clear"></div>
+				</div>
+
+				<div id="illustr">
+					
+					<div class="phto" id="numero38">
+						<a href="IMG/jpg/wireo.jpg" rel="facebox"><img src='local/cache-vignettes/L241xH233/wireo-6ec7b.jpg' width='241' height='233' style='height:233px;width:241px;' class='' /></a>
+					</div>
+					
+					
+					
+					
+					 
+					
+					<div class="clear"></div>
+				</div>
+				<div id="principal">
+					
+					<h1>Reliure Wire&#8217;o</h1>
+					<h2 class="soustitre">Une finition originale et fonctionnelle</h2>
+					<div class="text">
+						<div class="chapo">
+<p class="spip">Format&nbsp;: 300 x 300 mm
+<br />Nombre de pages&nbsp;: 24
+<br />Reliure&nbsp;: wire’o
+<br />Impression&nbsp;: quadri
+<br />Support&nbsp;: couché moderne mat ou brillant
+<br />350 gr couverture et 200 gr intérieur</p>
+</div>
+						
+<p class="spip"><strong class="spip">Ref. PR002</strong></p>
+
+					</div>
+					<div class="plan">
+						
+						<h2><span style='text-transform: uppercase;'>Catalogue</span></h2>
+						
+						
+						<ul>
+						
+							<li><a href="Brochure-piquee.html">Brochure piquée</a></li>
+						
+							<li class="on"><a href="Reliure-Wire-o.html">Reliure Wire&#8217;o</a></li>
+						
+						</ul>
+						
+						
+						<a href="IMG/gif/wireo_mat.gif"><img src='local/cache-vignettes/L246xH239/wireo_mat-27257.gif' width='246' height='239' style='height:239px;width:246px;' class='' /></a>
+						<p>A partir de 500 exemplaires</p>
+						
+						<div class="contact_prdt">
+							<p>VOUS SOUHAITEZ AVOIR DES INFORMATIONS SUR CE PRODUIT ?<br /><a href="spip.php?rubrique6">CLIQUEZ ICI POUR NOUS CONTACTER</a></p>
+						</div>
+					</div>
+					<div class="clear"></div>
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<?php
+	$contexte_inclus = array('fond' => 'inc-pied',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		</div>
+		<div class="clear"></div>
+	</div>
+<?php
+	$contexte_inclus = array('fond' => 'inc-ga',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</body>
+</html>
+
+";s:9:"squelette";s:37:"html_545ed4edc8a710503d83b00052bafb06";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:25:"0/Reliure_Wire_o.805a283a";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:5:"86400";}s:5:"duree";i:86400;s:8:"contexte";a:4:{s:4:"page";s:7:"article";s:10:"date_redac";s:19:"2016-01-11 08:59:56";s:4:"date";s:19:"2016-01-11 08:59:56";s:10:"id_article";s:2:"30";}}

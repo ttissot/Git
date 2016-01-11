@@ -1,0 +1,10 @@
+a:7:{s:5:"texte";s:410:"<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1353981-3");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+";s:9:"squelette";s:37:"html_8925e9e572dc0d9c64af25cb148027cb";s:11:"process_ins";s:4:"html";s:11:"invalideurs";a:1:{s:5:"cache";s:21:"7/-inc_ga-fr.23778e72";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";i:3600;}s:5:"duree";i:0;s:8:"contexte";a:4:{s:4:"fond";s:6:"inc-ga";s:4:"lang";s:2:"fr";s:4:"date";s:19:"2016-01-11 10:50:47";s:10:"date_redac";s:19:"2016-01-11 10:50:47";}}

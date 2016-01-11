@@ -1,0 +1,49 @@
+Jan 11 10:50:43 10.24.132.159 (pid 1594) calcul (0.01s) [squelettes/rubrique=4] page='rubrique', date_redac='2016-01-11 10:50:43', date='2016-01-11 10:50:43', id_rubrique='4' (4028 octets)
+Jan 11 10:50:43 10.24.132.159 (pid 1594) Creation du cache a/_Print_.10541b66 pour 7200 secondes
+Jan 11 10:50:43 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/inc-entete] fond='inc-entete', id_rubrique='4', lang='fr', date='2016-01-11 10:50:43', date_redac='2016-01-11 10:50:43' (1040 octets)
+Jan 11 10:50:43 10.24.132.159 (pid 1594) Creation du cache b/-inc_entete-4-fr.e9619b45 pour 3600 secondes
+Jan 11 10:50:43 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/sousmenu] fond='sousmenu', id_secteur='4', id_rubrique='23', lang='fr', date='2016-01-11 10:50:43', date_redac='2016-01-11 10:50:43' (275 octets)
+Jan 11 10:50:43 10.24.132.159 (pid 1594) Creation du cache f/-sousmenu-4-23-fr.41f3c800 pour 3600 secondes
+Jan 11 10:50:45 10.24.132.159 (pid 1336) calcul (0.01s) [squelettes/rubrique=2] page='rubrique', date_redac='2016-01-11 10:50:45', date='2016-01-11 10:50:45', id_rubrique='2' (4257 octets)
+Jan 11 10:50:45 10.24.132.159 (pid 1336) Creation du cache c/_PLV_.117e1201 pour 0 secondes
+Jan 11 10:50:45 10.24.132.159 (pid 1336) calcul (0.00s) [squelettes/inclusions/inc-entete] fond='inc-entete', id_rubrique='2', lang='fr', date='2016-01-11 10:50:45', date_redac='2016-01-11 10:50:45' (1040 octets)
+Jan 11 10:50:45 10.24.132.159 (pid 1336) Creation du cache 0/-inc_entete-2-fr.e3c091a4 pour 3600 secondes
+Jan 11 10:50:46 10.24.132.159 (pid 1656) Taille du CACHE: 172822 octets
+Jan 11 10:50:46 10.24.132.159 (pid 1656) suivre type='t' AND id&lt;1452505846 dans 7 caches
+Jan 11 10:50:46 10.24.132.159 (pid 1656) applique '1/-vignettes-17-fr.e709b53c', 'b/-sousmenu-2-17-fr.564f318e', 'b/-inc_entete-18-fr.99268326', 'c/-inc_entete-5-fr.57e2759b', '3/_Sur_mesure_.e1fbce63.gz', '5/_Presentoirs_.e946eb02', '3/_Chevalets_.4d474357'
+Jan 11 10:50:46 10.24.132.159 (pid 1656) cron: invalideur (0.00s)
+Jan 11 10:50:47 10.24.132.159 (pid 1594) Retire 7 caches
+Jan 11 10:50:47 10.24.132.159 (pid 1594) calcul (0.01s) [squelettes/rubrique=3] page='rubrique', date_redac='2016-01-11 10:50:47', date='2016-01-11 10:50:47', id_rubrique='3' (3970 octets)
+Jan 11 10:50:47 10.24.132.159 (pid 1594) Creation du cache e/_Packaging_.50c7bfb3 pour 7200 secondes
+Jan 11 10:50:47 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/inc-head] fond='inc-head', lang='fr', date='2016-01-11 10:50:47', date_redac='2016-01-11 10:50:47' (1240 octets)
+Jan 11 10:50:47 10.24.132.159 (pid 1594) Creation du cache 5/-inc_head-fr.01051834 pour 86400 secondes
+Jan 11 10:50:47 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/branding] fond='branding', lang='fr', date='2016-01-11 10:50:47', date_redac='2016-01-11 10:50:47' (1829 octets)
+Jan 11 10:50:47 10.24.132.159 (pid 1594) Creation du cache 4/-branding-fr.f61ab7b1 pour 3600 secondes
+Jan 11 10:50:47 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/inc-entete] fond='inc-entete', id_rubrique='3', lang='fr', date='2016-01-11 10:50:47', date_redac='2016-01-11 10:50:47' (1040 octets)
+Jan 11 10:50:47 10.24.132.159 (pid 1594) Creation du cache 5/-inc_entete-3-fr.81e2d56a pour 3600 secondes
+Jan 11 10:50:47 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/sousmenu] fond='sousmenu', id_secteur='3', id_rubrique='21', lang='fr', date='2016-01-11 10:50:47', date_redac='2016-01-11 10:50:47' (270 octets)
+Jan 11 10:50:47 10.24.132.159 (pid 1594) Creation du cache d/-sousmenu-3-21-fr.c6e7acc7 pour 3600 secondes
+Jan 11 10:50:47 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/inc-pied] fond='inc-pied', lang='fr', date='2016-01-11 10:50:47', date_redac='2016-01-11 10:50:47' (1824 octets)
+Jan 11 10:50:47 10.24.132.159 (pid 1594) Creation du cache 8/-inc_pied-fr.61ce52db pour 3600 secondes
+Jan 11 10:50:47 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/inc-ga] fond='inc-ga', lang='fr', date='2016-01-11 10:50:47', date_redac='2016-01-11 10:50:47' (410 octets)
+Jan 11 10:50:47 10.24.132.159 (pid 1594) Creation du cache 7/-inc_ga-fr.23778e72 pour 3600 secondes
+Jan 11 10:50:47 10.24.132.159 (pid 1991) calcul (0.01s) [plugins/forms_et_tables_1_9_1/forms_styles.css] page='forms_styles.css', date_redac='2016-01-11 10:50:47', date='2016-01-11 10:50:47' (9927 octets)
+Jan 11 10:50:47 10.24.132.159 (pid 1991) Creation du cache 9/%3Fpage%3Dforms_styles.26d19a9b pour 604800 secondes
+Jan 11 10:50:47 10.24.132.159 (pid 1336) calcul (0.06s) [dist/jquery.js] page='jquery.js', date_redac='2016-01-11 10:50:47', date='2016-01-11 10:50:47' (41115 octets)
+Jan 11 10:50:47 10.24.132.159 (pid 1336) Creation du cache 2/spip%3Fpage%3Djquery.3d511655.gz pour 604800 secondes
+Jan 11 10:50:54 10.24.132.159 (pid 1594) calcul (0.01s) [squelettes/article-4] page='article', date_redac='2016-01-11 10:50:54', date='2016-01-11 10:50:54', id_article='23' (3888 octets)
+Jan 11 10:50:54 10.24.132.159 (pid 1594) Creation du cache d/Depliant.1a4b7d0c pour 86400 secondes
+Jan 11 10:50:54 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/inc-entete] fond='inc-entete', id_rubrique='22', lang='fr', date='2016-01-11 10:50:54', date_redac='2016-01-11 10:50:54' (1040 octets)
+Jan 11 10:50:54 10.24.132.159 (pid 1594) Creation du cache 8/-inc_entete-22-fr.d8eb2cda pour 3600 secondes
+Jan 11 10:50:54 10.24.132.159 (pid 1594) calcul (0.00s) [squelettes/inclusions/sousmenu] fond='sousmenu', id_secteur='4', id_article='23', lang='fr', date='2016-01-11 10:50:54', date_redac='2016-01-11 10:50:54' (275 octets)
+Jan 11 10:50:54 10.24.132.159 (pid 1594) Creation du cache d/-sousmenu-4-23-fr.e8f4f24f pour 3600 secondes
+Jan 11 10:52:06 10.24.132.159 (pid 2001) calcul (0.01s) [squelettes/sommaire] date_redac='2016-01-11 10:52:06', date='2016-01-11 10:52:06' (3219 octets)
+Jan 11 10:52:06 10.24.132.159 (pid 2001) Creation du cache 1/INDEX-.fa73c28e pour 7200 secondes
+Jan 11 10:52:06 10.24.132.159 (pid 2001) calcul (0.00s) [squelettes/inclusions/inc-entete] fond='inc-entete', lang='fr', date='2016-01-11 10:52:06', date_redac='2016-01-11 10:52:06' (1040 octets)
+Jan 11 10:52:06 10.24.132.159 (pid 2001) Creation du cache 4/-inc_entete-0-fr.4f89e6f9 pour 3600 secondes
+Jan 11 10:52:13 10.24.132.159 (pid 4594) calcul (0.01s) [squelettes/rubrique-4] page='rubrique', date_redac='2016-01-11 10:52:13', date='2016-01-11 10:52:13', id_rubrique='23' (4018 octets)
+Jan 11 10:52:13 10.24.132.159 (pid 4594) Creation du cache e/_Catalogue_.f2fa62b3 pour 7200 secondes
+Jan 11 10:52:13 10.24.132.159 (pid 4594) calcul (0.00s) [squelettes/inclusions/inc-entete] fond='inc-entete', id_rubrique='23', lang='fr', date='2016-01-11 10:52:13', date_redac='2016-01-11 10:52:13' (1040 octets)
+Jan 11 10:52:13 10.24.132.159 (pid 4594) Creation du cache 9/-inc_entete-23-fr.a20dbf30 pour 3600 secondes
+Jan 11 10:52:13 10.24.132.159 (pid 4594) calcul (0.00s) [squelettes/inclusions/sousmenu] fond='sousmenu', id_secteur='4', id_rubrique='23', lang='fr', date='2016-01-11 10:52:13', date_redac='2016-01-11 10:52:13' (275 octets)
+Jan 11 10:52:13 10.24.132.159 (pid 4594) Creation du cache f/-sousmenu-4-23-fr.41f3c800 pour 3600 secondes

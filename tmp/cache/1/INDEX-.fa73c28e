@@ -1,0 +1,108 @@
+a:7:{s:5:"texte";s:3219:"<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html dir="ltr" lang="fr">
+<head>
+<title>Raynard PLV - Précision et savoir faire</title>
+<meta name="description" content="Groupe EXACOMPTA CLAIREFONTAINE Feuille, cartonnage ou contrecollage Nous imprimons en feuille à feuille sur carton jusqu’au 700 grammes (...)" />
+<?php
+	$contexte_inclus = array('fond' => 'inc-head',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</head>
+
+<body>
+
+	<div id="container">
+		
+		
+		<?php
+	$contexte_inclus = array('fond' => 'branding',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		
+		<div id="content">
+
+			<?php
+	$contexte_inclus = array('fond' => 'inc-entete',
+	'id_rubrique' => '0',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+			
+			<div id="content_main">
+				<div class="entrees">
+					
+					<div class="entree2">
+						<a href="-PLV-.html"><img src="IMG/rubon2.png" alt="" width="242" height="209" class='logorub'  /></a>
+						<h2><a href="-PLV-.html"><span style='text-transform: uppercase;'>PLV</span></a></h2>
+						
+<p class="spip">Contrecollé, rembordé, en volume, plus de 3 millions d&#8217;exemplaires de PLV sortent chaque année de nos ateliers.</p>
+
+						<p>
+							
+							<span class="sousrub"><a href="-Chevalets-.html">PLV Chevalets</a>&nbsp;|</span>
+							
+							<span class="sousrub"><a href="-Porte-depliants-.html">PLV Porte-dépliants</a>&nbsp;|</span>
+							
+							<span class="sousrub"><a href="-Presentoirs-.html">PLV Présentoirs</a>&nbsp;|</span>
+							
+							
+							<span class="sousrub"><a href="-Suspensions-.html">PLV Suspensions</a></span>
+							
+						</p>
+					</div>
+					
+					<div class="entree3">
+						<a href="-Packaging-.html"><img src="IMG/rubon3.png" alt="" width="224" height="207" class='logorub'  /></a>
+						<h2><a href="-Packaging-.html"><span style='text-transform: uppercase;'>Packaging</span></a></h2>
+						
+<p class="spip">Urnes, boîtes,étuis, Raynard vous propose de nombreux modèles adaptables à votre image.</p>
+
+						<p>
+							
+							<span class="sousrub"><a href="-Boites-.html">Boîtes</a>&nbsp;|</span>
+							
+							
+							<span class="sousrub"><a href="-Coffrets-.html">Coffrets PLV</a></span>
+							
+						</p>
+					</div>
+					
+					<div class="entree4">
+						<a href="-Print-.html"><img src="IMG/rubon4.png" alt="" width="156" height="155" class='logorub'  /></a>
+						<h2><a href="-Print-.html"><span style='text-transform: uppercase;'>Print</span></a></h2>
+						
+<p class="spip">Qualité et performance</p>
+
+						<p>
+							
+							<span class="sousrub"><a href="-Catalogue-.html">Catalogue</a>&nbsp;|</span>
+							
+							
+							<span class="sousrub"><a href="-Plaquettes-.html">Plaquettes</a></span>
+							
+						</p>
+					</div>
+					
+					<div class="clear"></div>
+				</div>
+			</div>
+			
+			<?php
+	$contexte_inclus = array('fond' => 'inc-pied',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+		</div>
+		<div class="clear"></div>
+		<div id="nav_supp"></div>
+	</div>
+<?php
+	$contexte_inclus = array('fond' => 'inc-ga',
+	'lang' => 'fr');
+	include(_DIR_RESTREINT . "public.php");
+?>
+</body>
+</html>
+";s:9:"squelette";s:37:"html_5b363c7b492789dfc7457fa41ebc5b8c";s:11:"process_ins";s:3:"php";s:11:"invalideurs";a:1:{s:5:"cache";s:17:"1/INDEX-.fa73c28e";}s:7:"entetes";a:1:{s:12:"X-Spip-Cache";s:4:"7200";}s:5:"duree";i:7200;s:8:"contexte";a:2:{s:10:"date_redac";s:19:"2016-01-11 10:52:06";s:4:"date";s:19:"2016-01-11 10:52:06";}}
