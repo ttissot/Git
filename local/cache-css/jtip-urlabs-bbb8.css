@@ -24,7 +24,7 @@ Author : Cody Lindley
 /* ---------->>> jtip <<<---------------------------------------------------------------*/
 
 #JT_arrow_left{
-	background-image: url(http://raynard.local/plugins/forms_et_tables_1_9_1/img_pack/arrow_left.gif);
+	background-image: url(http://www.raynard.fr/plugins/forms_et_tables_1_9_1/img_pack/arrow_left.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 	position: absolute;
@@ -36,7 +36,7 @@ Author : Cody Lindley
 }
 
 #JT_arrow_right{
-	background-image: url(http://raynard.local/plugins/forms_et_tables_1_9_1/img_pack/arrow_right.gif);
+	background-image: url(http://www.raynard.fr/plugins/forms_et_tables_1_9_1/img_pack/arrow_right.gif);
 	background-repeat: no-repeat;
 	background-position: left top;
 	position: absolute;
@@ -59,7 +59,7 @@ Author : Cody Lindley
 }
 
 .JT_loader{
-	background-image: url(http://raynard.local/plugins/forms_et_tables_1_9_1/img_pack/loader.gif);
+	background-image: url(http://www.raynard.fr/plugins/forms_et_tables_1_9_1/img_pack/loader.gif);
 	background-repeat: no-repeat;
 	background-position: center center;
 	width:100%;

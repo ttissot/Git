@@ -1,0 +1,9 @@
+drwxrwxr-x   5 raynard_tt 58039        4096 Nov  7  2012 .
+drwxrwxr-x  12 raynard_tt 58039        4096 May 24  2013 ..
+drwxrwxr-x   2 raynard_tt 58039        4096 Nov  7  2012 cache-css
+drwxrwxr-x   2 raynard_tt 58039          24 Nov  7  2012 cache-gd2
+drwxrwxr-x 141 raynard_tt 58039        4096 Nov 14  2012 cache-vignettes
+-rw-rw-r--   1 raynard_tt 58039           0 Nov  7  2012 test-gif.jpg
+-rw-rw-r--   1 raynard_tt 58039           0 Nov  7  2012 test-jpg.jpg
+-rw-rw-r--   1 raynard_tt 58039       10814 Nov  7  2012 test_gd1.jpg
+-rw-rw-r--   1 raynard_tt 58039        9887 Nov  7  2012 test_gd2.jpg
